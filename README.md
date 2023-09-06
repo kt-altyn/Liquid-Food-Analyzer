@@ -16,3 +16,19 @@ The ESP32 microcontroller serves as a central component in the liquid food analy
 
 ## 1.2. The Method 
 The liquid food analysis was carried out using a meticulous methodology to ensure reliable results. Initially, the optical, capacitive, temperature, and humidity sensors were precisely calibrated and seamlessly integrated into the system. The ESP32 microcontroller served as the central processing unit, facilitating real-time data processing and communication. To ensure optimal accuracy, a custom 3D printed environment was meticulously designed. This environment was specifically crafted to minimize the ingress of sunlight into the transparent cylindrical tube containing the liquid food. By creating a darkened environment, the 3D printed components effectively reduced potential interference from external light sources, thereby enhancing the accuracy of the analysis. The ESP32 microcontroller, programmed with Arduino, enabled efficient data acquisition and storage. Subsequently, a comprehensive Python script was developed to extract and analyze the stored data, generating informative graphs that provided detailed insights into the properties of the liquid food. This methodology, incorporating meticulous calibration, a purpose-built 3D printed environment, and advanced data analysis techniques, facilitated a systematic and accurate analysis of the liquid food, thereby contributing to informed quality assessment and ensuring the suitability of the food for consumption.
+
+![Ekran görüntüsü 2023-09-06 041205](https://github.com/kt-altyn/Liquid-Food-Analyzer/assets/92668715/f513e43c-c5b8-4bdc-8c7f-4d98bff6f945)
+
+![Ekran görüntüsü 2023-09-06 041404](https://github.com/kt-altyn/Liquid-Food-Analyzer/assets/92668715/815a944a-9ab1-47f3-92f0-38b96fb4578a)
+
+# 2. ANALYZING THE RECEIVED FOOD DATA
+The received food data was subjected to a comprehensive analysis to gain insights into the quality and characteristics of the different milk samples. Initially, the data was collected using the integrated hardware system, with the Arduino platform used to save the data. However, in order to improve efficiency and enhance analysis capabilities, the data processing was later transitioned to Python, enabling faster and more sophisticated analysis. Once the data was saved, a range of analytical techniques and algorithms were applied to explore the properties of the milk samples. Statistical methods and algorithms were employed to identify patterns, correlations, and anomalies in the data. Additionally, graphical representations and visualizations were generated to present the findings in a more accessible and informative manner. These visual reports provided a clear overview of the variations in properties among the different milk samples, such as UHT, non-UHT, and spoiled milk. By utilizing the integrated hardware setup and conducting a systematic analysis, valuable insights into the quality and composition of the milk samples were obtained, contributing to the overall understanding of liquid food properties, and facilitating informed decision-making in food science research. 
+
+![ir_UHT_2022-11-30 11 06 csv](https://github.com/kt-altyn/Liquid-Food-Analyzer/assets/92668715/4225df1c-2446-4cd1-a152-6d6e3cbf2b51)
+![environment_UHT_2022-11-30 11 06 csv](https://github.com/kt-altyn/Liquid-Food-Analyzer/assets/92668715/bd82cb45-9e76-4723-afa3-9c29f0635b48)
+![vis_UHT_2022-11-30 11 06 csv](https://github.com/kt-altyn/Liquid-Food-Analyzer/assets/92668715/2172abf7-4077-4c5b-8793-0ed94e7f5004)
+![lux_UHT_2022-11-30 11 06 csv](https://github.com/kt-altyn/Liquid-Food-Analyzer/assets/92668715/78666ebd-a874-4cab-86e7-7b964e67900b)
+
+
+https://github.com/kt-altyn/Liquid-Food-Analyzer/assets/92668715/b746783e-b576-4141-b4ed-3c0710f112f6
+
